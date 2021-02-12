@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+.contact-container .tact-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-100 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(106, 0, 0);
+  padding: 5px 0px 183px 0px;
+}
+
+.ff-container {
+  border-radius: 5px;
+  background-color: #6aadff;
+  padding: 5px;
+}
+.ffff-container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 3% 0px;
+}
+p.pp-form {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(106, 0, 0);
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+
+.col-101 li {
+  text-align: left;
+  padding: 26px 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(72, 0, 0);
+}
+
+/* form */
+
+form {
+  color: antiquewhite;
+  width: 100%;
+}
+.box-heading h1 {
+  color: rgb(4, 0, 255);
+  font-size: 24px;
+  text-shadow: 0px 1px 20px rgb(255, 251, 0);
+  font-weight: 700;
+  width: 100%;
+}
+p.grey {
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  text-shadow: 0px 1px 20px rgb(255, 251, 0);
+  font-style: italic;
+  width: 100%;
+}
+.box.feedback-form {
+  background-color: lightgreen;
+  box-shadow: darkseagreen 5px 5px 5px 5px;
+
+  padding: 10% 0% 10% 0%;
+}
+.inputstyle {
+  width: 100%;
+  margin: 30px auto;
+}
+.inputstyle input[type="text"] {
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  height: 50px;
+  /* box-shadow: 0px 1px 20px rgb(0, 26, 255); */
+}
+.inputstyle input[type="text"]:focus {
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  height: 50px;
+  box-shadow: 0px 1px 20px rgb(0, 6, 65);
+}
+
+.inputstyle textarea {
+  width: 80%;
+  height: 300px;
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  /* box-shadow: 0px 1px 20px rgb(0, 6, 65); */
+}
+.inputstyle textarea:focus {
+  width: 80%;
+  height: 300px;
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 1px 20px rgb(0, 6, 65);
+}
+.box-feedback-form {
+  background-color: rgb(255, 241, 110);
+  margin: 10% auto;
+}
+.btnstyle button {
+  width: 80%;
+  font-size: 24px;
+  background-color: mediumblue;
+  color: whitesmoke;
+  padding: 20px 0 20px 0px;
+}
+.btnstyle button:hover {
+  padding: 20px 0 20px 0px;
+  width: 80%;
+  font-size: 24px;
+  background-color: rgb(255, 0, 0);
+  color: whitesmoke;
+  box-shadow: 0px 1px 20px rgb(255, 255, 255);
+}
+.btnstyle button:focus {
+  width: 80%;
+  font-size: 24px;
+  background-color: rgb(13, 78, 0);
+  color: whitesmoke;
+  box-shadow: 0px 1px 20px rgb(255, 255, 255);
+}
+.btnstyle {
+  margin: 30px 0px;
+}
+label.check-label {
+  color: rgb(4, 0, 255);
+  font-size: 18px;
+  text-shadow: 0px 1px 20px rgb(255, 251, 0);
+  font-style: italic;
+  width: 100%;
+  font-weight: 800;
+  text-align: left;
+  float: left;
+  margin:  2% 10% ;
+}
+/* end form */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1024px) {
+  .ffff-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10% 0px;
+  }
+  .ff-container {
+    border-radius: 5px;
+    margin: 10% 0 0 0px;
+    background-color: #6aadff;
+    padding: 5px;
+  }
+  p.pp-form {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(106, 0, 0);
+  }
+  .col-100 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(106, 0, 0);
+    padding: 5px 0px 140px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-container .tact-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .ffff-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10% 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    resize: vertical;
+    text-align: left;
+    font-size: 12px;
+  }
+  .col-100 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(106, 0, 0);
+    padding: 0px 0px 7px 0px;
+  }
+  p.pp-form {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(106, 0, 0);
+  }
+  .ffff-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5% 0px;
+  }
+  .contact-container .tact-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .col-101 li {
+    text-align: left;
+    padding: 5px 50px;
+    font-size: 14px;
+
+    color: rgb(63, 1, 1);
+  }
+}
+@media screen and (max-width: 375px) {
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    resize: vertical;
+    text-align: left;
+    font-size: 10px;
+  }
+  .col-100 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(106, 0, 0);
+    padding: 0px 0px 7px 0px;
+  }
+  p.pp-form {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(106, 0, 0);
+  }
+  .ffff-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 23% 0px;
+  }
+  .contact-container .tact-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .col-101 li {
+    text-align: left;
+    padding: 5px 35px;
+    font-size: 14px;
+    color: rgb(63, 1, 1);
+  }
+}
+@media screen and (max-width: 320px) {
+  .col-100 {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(106, 0, 0);
+    padding: 0px 0px 7px 0px;
+  }
+  p.pp-form {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(106, 0, 0);
+  }
+  .ffff-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 23% 0px;
+  }
+  .contact-container .tact-column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .col-101 li {
+    text-align: left;
+    padding: 5px 20px;
+    font-size: 10px;
+    color: rgb(63, 1, 1);
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    resize: vertical;
+    text-align: left;
+    font-size: 10px;
+  }
+}

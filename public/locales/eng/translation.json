@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "12": "Home Page",
+    "1": "Home Page ",
+    "2": "About us",
+    "3": "",
+    "4": "Products and services",
+    "5": "Contact us",
+    "6": "Download",
+    "7": "device sends an alarm signal.",
+    "8": "You are at",
+    "9": "Welcome to the website ASTSECURITY.IN.TH  ",
+    "10": "Home ASTSECURITY.IN.TH  ",
+    "11": "Thank you for visiting our website."
+  },
+  "footer": {
+    "1": "Other related systems",
+    "2": "Fire protection system CL",
+    "3": "Fire protection system Notifier",
+    "4": "Vigilant fire protection system",
+    "5": "Smoke device",
+    "6": "Explosion-proof battery type EX",
+    "7": "Fire Alarm Test Equipment",
+    "8": "System Sensor Device",
+    "9": "GE fire protection system",
+    "10": "NOHMI fire protection system",
+    "11": "Contact us",
+    "12": "ALL SOLUTIONS TECH CO.,LTD.",
+    "13": "Address: 47/316 Popular Road, Ban Mai Subdistrict, Pak Kret District, Nonthaburi 11120 (Head Office)",
+    "14": "Address: 3279/25 Suebsiri Rd., Nai Mueang Subdistrict, Mueang District, Nakhon Ratchasima Province 30000",
+    "15": "Tel / Fax 02-012-3795 / 065-969-3552",
+    "16": "Email: ast.allsolutionstech@gmail.com",
+    "17": "All Web Technology Map",
+
+    "18": " Facebook : @allwebtechnology ",
+    "19": " Line : allwebcctv",
+    "20": "Website : https://allweb.co.th/2019/ หรือ http://astsecurity.in.th/"
+  },
+  "home": {
+    "1": "Welcome to the website",
+    "2": "We have expertise and expertise In the field of fire notification system and determined For the best service",
+    "3": "There is a cause for fire! ",
+    "4": "How can we prevent it? Here are the answers",
+    "5": "Visit website",
+    "6": "About Us",
+    "7": "Visit website goto bottom"
+  },
+  "page": {
+    "5": "Fire Alarm Control Panels",
+    "6": "Fire Detection Annunciators",
+    "7": "Notification Signaling Devices",
+    "8": "Heat and smoke detector",
+    "9": "Smoke & Heat Detectorsk",
+    "10": "Manual Pull Stations",
+    "11": "See more",
+    "12": "Fire Alarm Modules"
+  },
+  "home1": {
+    "2": "Fire Alarm Control Panels & addressable Annunciator ",
+
+    "3": "addressable fire alarm control panels ",
+
+    "4": "that are  ideally suited for both new ",
+
+    "5": "retrofit commercial,  institutional, residential",
+
+    "6": "industrial fire detection and  notification applications. ",
+
+    "7": "Our fire alarm control panels are  designed for small to medium scale ",
+
+    "8": "meet your  different needs and use whether  home, shop, commercial  buildings, office, apartment or restaurant",
+
+    "9": "guarantee that our  alarm control panels, that are UL, ULC and FM approved"
+  },
+
+  "proitem": {
+    "1": "FireWatcher 106S Fire Alarm Control Panel",
+
+    "2": "Intelligent Addressable Fire Alarm Control Panel",
+
+    "3": "Designed for small scale facilities",
+
+    "4": "Suited for both new and retrofit commercial, institutional and     industrial fire detection and notification applications.",
+
+    "5": "It can support 1 addressable loop unit and 252 addressable devices/points",
+
+    "6": "FireWatcher 106 Fire Alarm Control Panel",
+
+    "7": "Intelligent Addressable Fire Alarm Control Panel",
+
+    "8": "Designed for small to medium scale facilities",
+
+    "9": "Suited for both new and retrofit commercial, institutional and     industrial fire detection and notification applications.",
+
+    "10": "It can support 4 addressable Loop Circuits and 1,008 addressable devices/points",
+
+    "11": "External Network Unit",
+
+    "12": "The unit provide two CAN bus terminals to communicate with panels and annunciators",
+
+    "13": "It meets the UL864 10th Edition standard and the ULC-S527 3rd Edition standard",
+
+    "14": "It provides both Class X and Class B wiring    Supports two different setups"
+  },
+  "abitem": {
+    "1111": "Fire alarm system Is a system intended for alerting when there is a fire event ",
+
+    "2221": "The fire was used by the device. Detects different types as appropriate ",
+
+    "3331": "eg Smoke Detector, Heat Detector, Manual Pull Station",
+
+    "4441": "for example, which will allow us to recognize and correct the fire so that it cannot be controlled."
+  },
+  "proitem3": {
+    "1": "FireWatcher 971 Notification Device – Horn",
+    "2": "Audible Signalization Device",
+    "3": "Built-in synchronization circuit that can synchronize multiple horns in a complete fire alarm system.",
+    "4": "",
+    "5": "",
+    "6": "FireWatcher 982 Multi-Candela Strobe",
+    "7": "Multi-candela visual signaling device",
+    "8": "Light sources generated from white Light Emitting Diodes (LEDs)",
+    "9": "Five levels of light output are selectable",
+    "10": "",
+    "11": "Mini Horn Device  972MR,  972MW",
+    "12": "The horns offer three sound level settings",
+    "13": "Conventional audible signal appliances that operate on Maple Armor’s NAC",
+    "14": "Listed according to UL 464 and ULC-S525 for indoor use",
+    "15": ""
+  },
+
+  "proitem2": {
+    "1": "FireWatcher 122 Remote LCD Annunciator",
+    "2": "Intelligent remote LCD annunciator",
+    "3": "Designed to be used with the FW106 FireWatcher",
+    "4": "The LCD can display 8 events at a time.",
+    "5": "",
+    "6": "FireWatcher 123 Remote LCD Annunciator",
+    "7": "Intelligent remote compact LCD annunciator",
+    "8": "Designed to be used with the FW106 or the FW106S control panels",
+    "9": "The LCD can display 8 simultaneous events",
+    "10": "",
+    "11": "FireWatcher 129 Remote LED Annunciator",
+    "12": "Intelligent remote LED annunciator",
+    "13": "Designed to be used with the FW106/FW106S control panels",
+    "14": "It is connected to the control panel via the external network to form an emergency detection and notification network system",
+    "15": ""
+  },
+
+  "Device": {
+    "1": "",
+    "2": "Fire alarm notification devices",
+    "3": "fire alarmnotification devices are easy to install and configure. ",
+    "4": "The FW961/971/981 Horn and/or Strobe is a family of visual and/or audible signal appliances with light sources generated from white Light Emitting Diodes (LEDs) for indoor use. ",
+    "5": "The LED light source offers superior performance, including low power consumption and long operating life.",
+    "6": ""
+  },
+
+  "aboutus": {
+    "1": "All Solutions Tech Provides a full range of services for administration of all office information systems such asWebsite design With a beautiful design Modern and reliableSuitable for everyone who wants to have their own website.Can bring your website To be useful in many waysWe are ready to bring your business to the world of e-commerce.Just trust us to be a service provider, consultant, designer (webdesign).And is a person who walks alongside you into a world wide Marketing worldWe have a team that will analyze the needs and solve problems from the old system, managing theNetwork to improve work efficiency quickly.Additional business channels by preparing Search Engine OptimizationOr SEO is a website development processTo optimize your website for search throughSearch Engine for exampleGoogle, Yahoo by using keywords to find the website for you quickly.And more efficient",
+    "1.1": "Professional team",
+    "2": "How good is the product without being installed and maintained by a qualified professional? Good product then Maybe the worst thing, so Allsolutionstech. With more than 50 employees who are ready to serve you with heart and professional work system There is a systematic, clear, fast and verifiable customer database.",
+    "2.1": "Broken… repairable…",
+    "2.2": "Allsolutionstech Have stock of all parts So that you can be sure that Spoiled product We can actually fix it. In no time",
+    "3": "trust..",
+    "3.1": "When the product is broken or has a problem Allsolutionstech Has the ability to repair the anti-theft system for you By factory engineer"
+  },
+  "test": {
+    "1": "Fire Alarm Control Panels",
+    "2": "addressable Annunciator",
+    "3": "Fire alarm notification devices"
+  },
+  "InputForm": {
+    "1": "Ask more",
+    "2": "If you have any questions, please fill out your information. To be accurate and complete. They will then contact you to answer any questions you may have.",
+    "3": "complete information Desired",
+    "4": "Send message",
+    "5": "Name-Surname",
+    "6": "Contact email address",
+    "7": "Subject in question",
+    "8": "Specify the inquiries"
+  }
+}
