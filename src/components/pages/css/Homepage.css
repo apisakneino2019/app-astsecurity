@@ -23,13 +23,14 @@
 .content-item button {
   background-color: transparent;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 700;
   color: white;
 }
 .content-item p {
   background-color: transparent;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
 .btn-btn-homepage hr {

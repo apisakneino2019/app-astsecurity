@@ -3,10 +3,16 @@ import "./css/AboutUs.css";
 import { useTranslation } from "react-i18next";
 import { FcAlarmClock, FcCheckmark, FcNext } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import ModalImage from "react-modal-image";
 function AboutUs() {
   const { t } = useTranslation();
   return (
     <div>
+      <ModalImage
+        small={"/images/Banner-banner.png"}
+        large={"/images/Banner-banner.png"}
+        alt="ast-Banner"
+      />
       <h1
         style={{ backgroundImage: "url(/images/bg-black.jpg)" }}
         className="h1-col-title"
@@ -25,7 +31,7 @@ function AboutUs() {
           <div className="col-us-column">
             <hr /> <br />
             <img
-              className="col-us-img"
+              className="col-us-img-icons"
               src="/images/icons.png"
               alt="ast-icons"
             ></img>
@@ -38,36 +44,35 @@ function AboutUs() {
               src="/images/icons.png"
               alt="ast-logo"
             ></img>
-           
             <p className="col-us-pdata">
               {" "}
               {t("aboutus.1")}
               {t("aboutus.1.1")}
               {t("aboutus.2")}
               <br />
-             
-            </p> 
+            </p>
           </div>
           {/* Column3 */}
           <div className="col-us-column">
             <div>
-            <p className="col-uss-pdata">
-              {" "}
-              {t("abitem.1111")}
-              {t("abitem.2221")}
-              {t("abitem.3331")}
-              {t("abitem.4441")}
-              <br />
-              <Link to="/Products">{t("page.11")}</Link>
-            </p>
+              <img
+                className="col-us-img"
+                style={{ width: "50%", height: "auto" }}
+                src="/images/fire-alarm-hand-station.jpg"
+              ></img>
+              <p className="col-uss-pdata">
+                {" "}
+                {t("abitem.1111")}
+                {t("abitem.2221")}
+                {t("abitem.3331")}
+                {t("abitem.4441")}
+                <br />
+                <Link to="/Products">{t("page.11")}</Link>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <img
-        style={{ width: "100%", height: "auto" }}
-        src="https://cdn.pixabay.com/photo/2017/08/25/06/58/firefighter-2679283_960_720.jpg"
-      ></img>
     </div>
   );
 }

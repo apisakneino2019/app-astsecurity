@@ -76,7 +76,7 @@ function Navbar() {
                 {t("nav.5")}
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/Download"
                 className={clsx("nav-links", {
@@ -85,7 +85,7 @@ function Navbar() {
               >
                 {t("nav.6")}
               </Link>
-            </li>
+            </li> */}
             <li className="nav-btn">
               <button onClick={() => handleClick10("eng")}>
                 <img

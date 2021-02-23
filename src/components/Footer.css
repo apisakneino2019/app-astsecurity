@@ -10,6 +10,7 @@
   z-index: 1;
   width: 100%;
 }
+
 .main-footer {
   color: #ffffff;
   background: #ff0000;
@@ -25,7 +26,7 @@
 }
 .col li {
   padding: 0px 20px;
-  font-size: 18px;
+  font-size: 24px;
   text-align: left;
   color:#ffffff;
   padding-top: 15px;

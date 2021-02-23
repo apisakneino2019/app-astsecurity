@@ -35,7 +35,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// header('Access-Control-Allow-Origin: *');
-// header('Content-type: application/json');
 echo json_encode(['success' => false]);
 exit();

@@ -5,8 +5,10 @@ import { BrowserRouter } from "react-router-dom";
 
 import "./i18n";
 
+
+
 ReactDOM.render(
-  <Suspense fallback={<div>Wait a moment please...(กรุณารอสักครู่... )</div>}>
+  <Suspense fallback={<div></div>}>
     <BrowserRouter>
       <App />
     </BrowserRouter>

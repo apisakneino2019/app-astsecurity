@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Homepage.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { CgMoreR, CgCrowdfire } from "react-icons/cg";
+import {  CgCrowdfire } from "react-icons/cg";
 import { BiChevronsRight } from "react-icons/bi";
 
 function Homepage() {

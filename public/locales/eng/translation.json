@@ -153,7 +153,9 @@
     "3": "fire alarmnotification devices are easy to install and configure. ",
     "4": "The FW961/971/981 Horn and/or Strobe is a family of visual and/or audible signal appliances with light sources generated from white Light Emitting Diodes (LEDs) for indoor use. ",
     "5": "The LED light source offers superior performance, including low power consumption and long operating life.",
-    "6": ""
+    "44": "Fire Alarm Modules",
+    "55": "Manual Pull Stations",
+    "66": "Heat and smoke detector"
   },
 
   "aboutus": {
@@ -178,6 +180,101 @@
     "5": "Name-Surname",
     "6": "Contact email address",
     "7": "Subject in question",
-    "8": "Specify the inquiries"
+    "8": "Specify the inquiries",
+    "10": "Please refresh to reset the form."
+  },
+
+  "sers": {
+    "0": "Learn more here. Just click the title to download",
+
+    "00": "This document is in PDF format",
+
+    "1": "Fire Alarm System",
+
+    "2": "Product_Brochure",
+
+    "3": "FST-851 Series",
+
+    "4": " SSM24-6 20Alarm Bell ",
+
+    "5": "NBG-12LX ",
+
+    "6": "  NFS-320"
+  },
+  "label": {
+    "1": "Theories and principles related and automatic fire extinguishing system (Thai language)",
+
+    "2": "Theories and principles involved and automatic fire alarm system",
+
+    "3": "Smart heat detector data with scanning flash (Heat)",
+
+    "4": "Bell information notification. (AlarmBells) ",
+
+    "5": "Addressable Manual Pull Station data ",
+
+    "6": "Intelligent Addressable Fire Alarm System data"
+  },
+  "Modules": {
+    "0": "Intelligent Fire Alarm Modules",
+    "1": "manufactures and supplies you with a wide section of intelligent fire alarm modules: Fire Alarm Device Input/Output Modules, Fire Alarm Device Relay Module, Isolation Module, Sync Module, FW811 Input Module, FW821 I/O Module, FW831 Relay Module, FW851 Isolation Module, FW951 Sync Module.",
+
+    "2": "FireWatcher 811 Input Module",
+    "3": "Input module that monitors a single dry contact",
+    "4": "UL/ULC listed device according to UL864 and ULCS527 for fire protective signaling systems for indoor use",
+    "5": "The field circuit is monitored for open line faults and ground faults and the contact must be wired with an end of line resistor",
+
+    "6": "FireWatcher 811M Mini-Input Module",
+    "7": "Input module that monitors a single dry contact",
+    "8": "UL/ULC listed device according to UL864 and ULC-S527 for fire protective signaling systems for indoor use",
+    "9": "The field circuit is monitored for open line faults and ground faults and the contact must be wired with an end of line resistor",
+
+    "10": "FireWatcher 821 I/O Module",
+    "11": "Input-Output module",
+    "12": "UL / ULC listed device according to UL864 and ULC-S527 for fire protective signaling systems for indoor use",
+    "13": "Provides one 24VDC output and in addition monitoring for one feedback input contact",
+
+    "14": "FireWatcher 831 Relay Module",
+    "15": "Relay module",
+    "16": "UL / ULC listed product according to UL864 and ULC-S527 for fire protective signaling systems for indoor use",
+    "17": "Provides two control relay outputs which will be activated simultaneously",
+
+    "18": "FireWatcher 951 Sync Module",
+    "19": "Sync Module is a device designed with FW961/FW971/FW981 Horn and/or Strobe",
+    "20": "Built-in synchronization circuit to synchronize multiple FW961s in a complete fire alarm system",
+    "21": "Up to 64 Notification Appliance Circuits (NAC), networked, stand alone or interfacing with the FW951",
+
+    "22": "FireWatcher 851 Isolation Module",
+    "23": "The isolation module isolates the short point on the signaling line circuit (SLC)",
+    "24": "The internal relay will be triggered to cut down the line power where the short trouble is detected"
+  },
+  "Manual": {
+    "0": "Fire Alarm Manual Pull Station",
+    "1": "Addressable Fire Alarm Manual Pull Stations are made of durable materials for long-lasting performance. We designed the pull stations to not only function well under pressure, but their sleek and minimalist design will give a more modern look inside your building.",
+
+    "2": "FireWatcher 721 Manual Pull Station",
+    "3": "Addressable Manual Station",
+    "4": "UL and ULC listed devices according to UL 38 and ULC-S528 for Fire Protective Signaling Systems for indoor use",
+    "5": "It is a normally open initiating device made from durable materials and solid parts for long lasting performance",
+
+    "6": "FireWatcher 722 Manual Pull Station",
+    "7": "ADA compliant Addressable manual station",
+    "8": "UL/ULC listed device according to UL38 and ULC-S528 for Fire Protective Signaling Systems for indoor use",
+    "9": "Easy-to-use push-plate activation"
+  },
+  "Smoke": {
+    "0": "Intelligent Heat Detectors & Intelligent Photoelectric Smoke Detectors",
+    "1": "Intelligent Heat Detectors & Intelligent Photoelectric Smoke Detectors with competitive prices and a slim design that combines visual appeal with a high standard of reliability.",
+
+    "2": "FireWatcher 511 Intelligent Photoelectric Smoke Detector",
+    "3": "It responds quickly and dependably to a broad range of fires.",
+    "4": "Its slim design combines visual appeal with a high standard of reliability.",
+    "5": "Intelligent Smoke Detector is used with the FW500/FW501 Detector Base.",
+
+    "6": "FireWatcher 521 Intelligent Heat Detector",
+    "7": "Intelligent Heat Detector for indoor use with both fixed-temperature alarm and rate-of-rise alarm characteristics",
+    "8": "Its slim design combines visual appeal with a high standard of reliability.",
+    "9": "The detector has a Micro controller Unit (MCU) performing comprehensive self-diagnostic tests, and result analysis"
+
+    
   }
 }

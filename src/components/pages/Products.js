@@ -4,10 +4,19 @@ import { useTranslation } from "react-i18next";
 import { FcAlarmClock, FcCheckmark, FcNext } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import { Link as Link1 } from "react-scroll";
+import ModalImage from "react-modal-image";
+
 function Products() {
   const { t } = useTranslation();
+
   return (
-    <div id="tact-homepage">
+    <div>
+      <ModalImage
+        small={"/images/Banner-banner.png"}
+        large={"/images/Banner-banner.png"}
+        alt="ast-Banner"
+      />
+
       <h1
         style={{ backgroundImage: "url(/images/bg-black.jpg)" }}
         className="h1-col-title"
@@ -21,11 +30,10 @@ function Products() {
         <FcNext size={24} />
         {t("nav.4")}
       </h5>
-     
       {/* ก่อนชุดที่ 1 */}
       <div className="tact-container">
         <div className="tact-column-inner">
-          <div className="tact-only-column-one">
+          <div id="tact-homepage" className="tact-only-column-one">
             {" "}
             <div className="tact-column-one">
               {" "}
@@ -42,7 +50,6 @@ function Products() {
             </div>{" "}
             <hr className="text-hr" />
             <div className="tact-column-one">
-           
               <div className="container-test">
                 <img
                   src="/images/an3.png"
@@ -55,7 +62,6 @@ function Products() {
               </div>{" "}
             </div>{" "}
             <hr className="text-hr" />
-           
             <div className="tact-column-one">
               {" "}
               <p>
@@ -79,11 +85,11 @@ function Products() {
           {/* Column1 */}
           <div className="col-tact-column">
             {" "}
-            <img
-              className="col-us-img-3"
-              src="/images/panels2.png"
-              alt="FireWatcher 106S"
-            ></img>
+            <ModalImage
+              small={"/images/panels2.png"}
+              large={"/images/panels2.png"}
+              alt="Fire Watcher 106s แผงควบคุมสัญญาณแจ้งเหตุเพลิงไหม้"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -115,11 +121,16 @@ function Products() {
           {/* Column2 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/panels3.png"
               alt="FireWatcher 106"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/panels3.png"}
+              large={"/images/panels3.png"}
+              alt=" Fire Watcher 106 แผงควบคุมสัญญาณแจ้งเหตุเพลิงไหม้ "
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -151,11 +162,16 @@ function Products() {
           {/* Column3 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/panels4.png"
               alt="External Network Unit"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/panels4.png"}
+              large={"/images/panels4.png"}
+              alt="หน่วยเครือข่ายภายนอก"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -193,11 +209,16 @@ function Products() {
           {/* Column1 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/an1.png"
               alt="FireWatcher 122 Remote LCD Annunciator"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/an1.png"}
+              large={"/images/an1.png"}
+              alt="FireWatcher 122 รีโมท LCD สัญญาณแจ้งเหตุเพลิงไหม้"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -224,11 +245,16 @@ function Products() {
           {/* Column2 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/an2.png"
               alt="FireWatcher 123 Remote LCD Annunciator"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/an2.png"}
+              large={"/images/an2.png"}
+              alt="FireWatcher 123 รีโมท LCD สัญญาณแจ้งเหตุเพลิงไหม้"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -255,11 +281,16 @@ function Products() {
           {/* Column3 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/an3.png"
               alt="FireWatcher 129 Remote LED Annunciator"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/an3.png"}
+              large={"/images/an3.png"}
+              alt="FireWatcher 129 รีโมท LED สัญญาณแจ้งเหตุเพลิงไหม้"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -287,7 +318,6 @@ function Products() {
       </div>
 
       {/* ชุดที่ 3 */}
-
       <div id="tact-homepage2" className="tact-container">
         <div className="tact-column-inner">
           <div className="tact-only-column">
@@ -313,10 +343,6 @@ function Products() {
                 {t("Device.3")}
                 {t("Device.4")}
                 {t("Device.5")}
-                {t("Device.6")}
-                {t("Device.7")}
-                {t("Device.8")}
-                {t("Device.9")}
               </p>
             </div>
           </div>
@@ -326,11 +352,16 @@ function Products() {
           {/* Column1 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/dev2.png"
               alt="FireWatcher 982 Multi-Candela Strobe"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/dev2.png"}
+              large={"/images/dev2.png"}
+              alt="FireWatcher 971 อุปกรณ์แจ้งเตือน - Horn"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -347,17 +378,21 @@ function Products() {
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.3")}
               </li>
-            
             </span>
           </div>
           {/* Column2 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/dev3.png"
               alt="FireWatcher 962 Multi-Candela Horn/Strobe"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/dev3.png"}
+              large={"/images/dev3.png"}
+              alt="FireWatcher 962 Multi-Candela Horn/Strobe"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -384,11 +419,16 @@ function Products() {
           {/* Column3 */}
           <div className="col-tact-column">
             {" "}
-            <img
+            {/* <img
               className="col-us-img-3"
               src="/images/Device-4.png"
               alt="Mini Horn Device"
-            ></img>
+            ></img> */}
+            <ModalImage
+              small={"/images/Device-4.png"}
+              large={"/images/Device-4.png"}
+              alt="Mini Horn Device"
+            />
             <span className="span-list">
               <ul>
                 {" "}
@@ -415,10 +455,469 @@ function Products() {
         </div>
       </div>
 
-      <ul className="style-type">
+      {/* ชุดที่ 4 */}
+      <div id="tact-homepage4" className="tact-container">
+        <div className="tact-column-inner">
+          <div className="tact-only-column">
+            {" "}
+            <div className="tact-column">
+              {" "}
+              <div className="container-test">
+                <img
+                  src="/images/FW811.png"
+                  alt="FW811"
+                  className="image-test"
+                />
+                <div className="overlay-test">
+                  <div className="text-test">{t("Modules.0")}</div>
+                </div>
+              </div>
+            </div>
+            <div className="tact-column">
+              {" "}
+              <p>
+                <span className="span-col-203"> {t("Modules.0")} </span>
+                <br />
+                {t("Modules.1")}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="tact-container-inner">
+        
+          {/* Column1 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW811.png"
+              alt="FW811"
+            ></img> */}
+              <ModalImage
+              small={"/images/FW811.png"}
+              large={"/images/FW811.png"}
+              alt="โมดูลอินพุต FireWatcher 811"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.2")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.3")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.4")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.5")}
+              </li>
+            </span>
+          </div>
+        
+          {/* Column2 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW811M.png"
+              alt="FW811M"
+            ></img> */}
+              <ModalImage
+              small={"/images/FW811M.png"}
+              large={"/images/FW811M.png"}
+              alt="FireWatcher 811M โมดูลอินพุตขนาดเล็ก"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.6")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.7")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.8")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.9")}
+              </li>
+            </span>
+          </div>
+
+          {/* Column3 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW821.png"
+              alt="FW821"
+            ></img> */}
+              <ModalImage
+              small={"/images/FW821.png"}
+              large={"/images/FW821.png"}
+              alt="โมดูลอินพุต-เอาต์พุต FireWatcher 821"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.10")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.11")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.12")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.13")}
+              </li>
+            </span>
+          </div>
+        
+          {/* Column4 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW831.png"
+              alt="FW831"
+            ></img> */}
+            <ModalImage
+              small={"/images/FW831.png"}
+              large={"/images/FW831.png"}
+              alt="โมดูลรีเลย์ FireWatcher 831"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.14")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.15")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.16")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.17")}
+              </li>
+            </span>
+          </div>
+        
+          {/* Column5 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW951-3.png"
+              alt="FW951-3"
+            ></img> */}
+            <ModalImage
+              small={"/images/FW951-3.png"}
+              large={"/images/FW951-3.png"}
+              alt="โมดูลซิงค์ FireWatcher 951"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.18")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.19")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.20")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.21")}
+              </li>
+            </span>
+          </div>
+        
+          {/* Column6 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FW851-2.png"
+              alt="FW851-2"
+            ></img> */}
+            <ModalImage
+              small={"/images/FW851-2.png"}
+              large={"/images/FW851-2.png"}
+              alt="โมดูลแยก FireWatcher 851"
+            />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Modules.22")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.23")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Modules.24")}
+              </li>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* ชุดที่ 5 */}
+      <div id="tact-homepage5" className="tact-container">
+        <div className="tact-column-inner">
+          <div className="tact-only-column">
+            {" "}
+            <div className="tact-column">
+              {" "}
+              <div className="container-test">
+                <img
+                  src="/images/FireWatcher721Manual.png"
+                  alt="FireWatcher721Manual.png"
+                  className="image-test"
+                />
+                <div className="overlay-test">
+                  <div className="text-test">{t("Manual.0")}</div>
+                </div>
+              </div>
+            </div>
+            <div className="tact-column">
+              {" "}
+              <p>
+                <span className="span-col-203"> {t("Manual.0")} </span>
+                <br />
+                {t("Manual.1")}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="tact-container-inner">
+          {/* Column1 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FireWatcher721Manual.png"
+              alt="FireWatcher721Manual"
+            ></img> */}
+              <ModalImage
+        small={"/images/FireWatcher721Manual.png"}
+        large={"/images/FireWatcher721Manual.png"}
+        alt="FireWatcher 721 สถานีดึงคู่มือแจ้งเตือนอัคคีภัย"
+      />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Manual.2")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.3")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.4")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.5")}
+              </li>
+            </span>
+          </div>
+          {/* Column2 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FireWatcher722Manual.png"
+              alt="FireWatcher722Manual"
+            ></img> */}
+              <ModalImage
+        small={"/images/FireWatcher722Manual.png"}
+        large={"/images/FireWatcher722Manual.png"}
+        alt="FireWatcher 722 สถานีดึงคู่มือแจ้งเตือนอัคคีภัย"
+      />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Manual.6")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.7")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.8")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Manual.9")}
+              </li>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* ชุดที่ 6 */}
+      <div id="tact-homepage6" className="tact-container">
+        <div className="tact-column-inner">
+          <div className="tact-only-column">
+            {" "}
+            <div className="tact-column">
+              {" "}
+              <div className="container-test">
+                <img
+                  src="/images/FireWatcher 511.png"
+                  alt="FireWatcher511"
+                  className="image-test"
+                />
+                <div className="overlay-test">
+                  <div className="text-test">{t("Smoke.0")}</div>
+                </div>
+              </div>
+            </div>
+            <div className="tact-column">
+              {" "}
+              <p>
+                <span className="span-col-203"> {t("Smoke.0")} </span>
+                <br />
+                {t("Smoke.1")}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="tact-container-inner">
+          {/* Column1 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FireWatcher 511.png"
+              alt="FireWatcher511"
+            ></img> */}
+              <ModalImage
+        small={"/images/FireWatcher 511.png"}
+        large={"/images/FireWatcher 511.png"}
+        alt="FireWatcher 511 เครื่องตรวจจับควันโฟโตอิเล็กทริคอัจฉริยะ"
+      />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Smoke.2")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.3")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.4")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.5")}
+              </li>
+            </span>
+          </div>
+          {/* Column2 */}
+          <div className="col-tact-column">
+            {" "}
+            {/* <img
+              className="col-us-img-3"
+              src="/images/FireWatcher 521 .png"
+              alt="FireWatcher521"
+            ></img> */}
+              <ModalImage
+        small={"/images/FireWatcher 521 .png"}
+        large={"/images/FireWatcher 521 .png"}
+        alt="เครื่องตรวจจับความร้อนอัจฉริยะ FireWatcher 521"
+      />
+            <span className="span-list">
+              <ul>
+                {" "}
+                <FcCheckmark className="icons-Us" size={34} />
+                {t("Smoke.6")}
+              </ul>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.7")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.8")}
+              </li>
+              <li>
+                {" "}
+                <FcAlarmClock className="icons-Us" size={34} />
+                {t("Smoke.9")}
+              </li>
+            </span>
+          </div>
+        </div>
+      </div>
+      {/* <ul className="style-type">
         <li className="list-style-type">
           {" "}
-          <Link to="/Products">
+          <Link to="/">
             {" "}
             <FcNext size={18} />
             {t("nav.12")}
@@ -440,6 +939,30 @@ function Products() {
             {t("Device.2")}
           </Link1>
         </li>
+        <li className="list-style-type">
+          {" "}
+          <Link1 to="tact-homepage4" spy={true} smooth={true}>
+            {" "}
+            <FcNext size={18} />
+            {t("Device.44")}
+          </Link1>
+        </li>
+        <li className="list-style-type">
+          {" "}
+          <Link1 to="tact-homepage5" spy={true} smooth={true}>
+            {" "}
+            <FcNext size={18} />
+            {t("Device.55")}
+          </Link1>
+        </li>
+        <li className="list-style-type">
+          {" "}
+          <Link1 to="tact-homepage6" spy={true} smooth={true}>
+            {" "}
+            <FcNext size={18} />
+            {t("Device.66")}
+          </Link1>
+        </li>
 
         <li className="list-style-type">
           {" "}
@@ -449,7 +972,7 @@ function Products() {
             {t("nav.5")}
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

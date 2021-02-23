@@ -16,10 +16,15 @@ h3 {
   font-family: "Kanit", sans-serif;
   font-size: 1.5rem;
 }
+img.col-us-img-icons {
+  width: 80%;
+  height: auto;
+  margin: 30% auto;
+}
 .col-us-img {
   width: 60%;
   height: auto;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 .col-us-img-2 {
   width: 40%;
@@ -37,9 +42,14 @@ p.col-us-pdata {
 }
 p.col-uss-pdata {
   text-align: left;
-  padding: 250px 50px;
+  padding: 35px 15px;
   text-indent: 15%;
   font-size: 20px;
+}
+img.img-top {
+  width: 100%;
+  margin: 10px auto;
+  box-shadow: 5px 5px 10px 5px rgb(0, 0, 0);
 }
 
 
@@ -165,6 +175,7 @@ p.col-uss-pdata {
     text-indent: 15%;
     font-size: 14px;
 }
+
   p.col-us-pdata {
     text-align: justify;
     padding: 10px 0px;
