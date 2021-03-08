@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/Download.css";
 import { useTranslation } from "react-i18next";
-import { FcAlarmClock, FcCheckmark, FcNext } from "react-icons/fc";
+
 import { Link } from "react-router-dom";
 function Download() {
   const { t } = useTranslation();

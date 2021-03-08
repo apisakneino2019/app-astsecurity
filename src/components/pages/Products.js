@@ -914,7 +914,7 @@ function Products() {
           </div>
         </div>
       </div>
-      {/* <ul className="style-type">
+      <ul className="style-type">
         <li className="list-style-type">
           {" "}
           <Link to="/">
@@ -972,7 +972,7 @@ function Products() {
             {t("nav.5")}
           </Link>
         </li>
-      </ul> */}
+      </ul>
     </div>
   );
 }

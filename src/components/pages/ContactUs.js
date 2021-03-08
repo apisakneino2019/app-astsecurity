@@ -3,7 +3,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { FcNext } from "react-icons/fc";
 import axios from "axios";
-import { useForm, Controller } from "react-hook-form";
+import { useForm } from "react-hook-form";
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
@@ -30,18 +31,16 @@ function ContactUs() {
       autoClose: 3000,
     });
 
-  const reset = () => {
-    this.formRef.current.reset();
-  };
-
-  const { control, handleSubmit } = useForm();
+  const { handleSubmit } = useForm();
 
   const onSubmit = async (data) => {
     await axios.post("http://astsecurity.in.th/send-contact.php", {
       name: formdata.username,
+      phone: formdata.phone,
       subject: formdata.subject,
       email: formdata.email,
       content: formdata.content,
+      
     });
     console.log("ทำการส่งข้อความเรียบร้อย");
   };
@@ -50,14 +49,18 @@ function ContactUs() {
 
   return (
     <div>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3136.904378559478!2d102.057141!3d14.957799000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x493fec817647dd10!2z4LiB4Lil4LmJ4Lit4LiH4Lin4LiH4LiI4Lij4Lib4Li04LiU4LmC4LiE4Lij4Liy4LiKIENDVFYgSVAgQ2FtZXJhIOC4quC4seC4jeC4jeC4suC4k-C4geC4seC4meC4guC5guC4oeC4oiDguKrguYHguIHguJnguJnguLTguYnguKfguKHguLfguK0g4LiE4Li14Lii4LmM4LiB4Liy4Lij4LmM4LiUIOC5hOC4oeC5ieC4geC4seC5ieC4meC4o-C4luC4ouC4meC4leC5jA!5e1!3m2!1sen!2sth!4v1608796503566!5m2!1sen!2sth"
-        frameBorder={0}
-        style={{ border: 0 }}
-        allowFullScreen
-        aria-hidden="false"
-        tabIndex={0}
-      />
+      <div>
+        {" "}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3136.904378559478!2d102.057141!3d14.957799000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x493fec817647dd10!2z4LiB4Lil4LmJ4Lit4LiH4Lin4LiH4LiI4Lij4Lib4Li04LiU4LmC4LiE4Lij4Liy4LiKIENDVFYgSVAgQ2FtZXJhIOC4quC4seC4jeC4jeC4suC4k-C4geC4seC4meC4guC5guC4oeC4oiDguKrguYHguIHguJnguJnguLTguYnguKfguKHguLfguK0g4LiE4Li14Lii4LmM4LiB4Liy4Lij4LmM4LiUIOC5hOC4oeC5ieC4geC4seC5ieC4meC4o-C4luC4ouC4meC4leC5jA!5e1!3m2!1sen!2sth!4v1608796503566!5m2!1sen!2sth"
+          frameBorder={0}
+          style={{ border: 0 }}
+          allowFullScreen
+          aria-hidden="false"
+          tabIndex={0}
+        />
+      </div>
+
       <h1
         style={{ backgroundImage: "url(/images/bg-black.jpg)" }}
         className="h1-col-title"
@@ -168,6 +171,18 @@ function ContactUs() {
                         value={formdata.username}
                       />
                     </div>
+                     {/* input */}
+                     <label className="check-label">{t("InputForm.11")}</label>
+                    <div className="inputstyle">
+                      <input
+                        type="text"
+                        name="phone"
+                        placeholder=" เบอร์โทรศัพท์..."
+                        required
+                        onChange={Chagform}
+                        value={formdata.phone}
+                      />
+                    </div>
                     {/* input */}
                     <label className="check-label">{t("InputForm.6")}</label>
                     <div className="inputstyle">
@@ -208,7 +223,6 @@ function ContactUs() {
                     </div>
                     <div className="btnstyle">
                       <p className="guide-reset"> {t("InputForm.10")}</p>
-                      
                     </div>
                   </div>
                 </form>

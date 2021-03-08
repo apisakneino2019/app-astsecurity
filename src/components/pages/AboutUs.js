@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/AboutUs.css";
 import { useTranslation } from "react-i18next";
-import { FcAlarmClock, FcCheckmark, FcNext } from "react-icons/fc";
+import { FcNext } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import ModalImage from "react-modal-image";
 function AboutUs() {
@@ -59,6 +59,7 @@ function AboutUs() {
                 className="col-us-img"
                 style={{ width: "50%", height: "auto" }}
                 src="/images/fire-alarm-hand-station.jpg"
+                alt="station"
               ></img>
               <p className="col-uss-pdata">
                 {" "}

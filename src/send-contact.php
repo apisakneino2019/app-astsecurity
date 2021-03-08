@@ -20,6 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $content .= "\n";
         $content .= "name : " . $input->name;
         $content .= "\n";
+        $content .= "phone : " . $input->phone;
+        $content .= "\n";
         $content .= "content : " . $input->content;
 
         mail($email, $input->subject, $content);

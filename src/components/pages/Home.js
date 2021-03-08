@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Home.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { Link as Link1 } from "react-router-dom";
+
 import {
   FcGlobe,
   FcAbout,
