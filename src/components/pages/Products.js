@@ -351,12 +351,6 @@ function Products() {
         <div className="tact-container-inner">
           {/* Column1 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/dev2.png"
-              alt="FireWatcher 982 Multi-Candela Strobe"
-            ></img> */}
             <ModalImage
               small={"/images/dev2.png"}
               large={"/images/dev2.png"}
@@ -382,35 +376,24 @@ function Products() {
           </div>
           {/* Column2 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/dev3.png"
-              alt="FireWatcher 962 Multi-Candela Horn/Strobe"
-            ></img> */}
             <ModalImage
               small={"/images/dev3.png"}
               large={"/images/dev3.png"}
-              alt="FireWatcher 962 Multi-Candela Horn/Strobe"
-            />
+              alt="FireWatcher 962 Multi-Candela Horn/Strobe" />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("proitem3.6")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.7")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.8")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.9")}
               </li>
@@ -418,35 +401,24 @@ function Products() {
           </div>
           {/* Column3 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/Device-4.png"
-              alt="Mini Horn Device"
-            ></img> */}
             <ModalImage
               small={"/images/Device-4.png"}
               large={"/images/Device-4.png"}
-              alt="Mini Horn Device"
-            />
+              alt="Mini Horn Device"/>
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("proitem3.11")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.12")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.13")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("proitem3.14")}
               </li>
@@ -488,12 +460,6 @@ function Products() {
         
           {/* Column1 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW811.png"
-              alt="FW811"
-            ></img> */}
               <ModalImage
               small={"/images/FW811.png"}
               large={"/images/FW811.png"}
@@ -501,22 +467,18 @@ function Products() {
             />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.2")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.3")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.4")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.5")}
               </li>
@@ -525,12 +487,6 @@ function Products() {
         
           {/* Column2 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW811M.png"
-              alt="FW811M"
-            ></img> */}
               <ModalImage
               small={"/images/FW811M.png"}
               large={"/images/FW811M.png"}
@@ -538,7 +494,6 @@ function Products() {
             />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.6")}
               </ul>
@@ -553,7 +508,6 @@ function Products() {
                 {t("Modules.8")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.9")}
               </li>
@@ -562,12 +516,6 @@ function Products() {
 
           {/* Column3 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW821.png"
-              alt="FW821"
-            ></img> */}
               <ModalImage
               small={"/images/FW821.png"}
               large={"/images/FW821.png"}
@@ -575,22 +523,18 @@ function Products() {
             />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.10")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.11")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.12")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.13")}
               </li>
@@ -599,12 +543,6 @@ function Products() {
         
           {/* Column4 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW831.png"
-              alt="FW831"
-            ></img> */}
             <ModalImage
               small={"/images/FW831.png"}
               large={"/images/FW831.png"}
@@ -612,22 +550,18 @@ function Products() {
             />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.14")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.15")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.16")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.17")}
               </li>
@@ -636,12 +570,6 @@ function Products() {
         
           {/* Column5 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW951-3.png"
-              alt="FW951-3"
-            ></img> */}
             <ModalImage
               small={"/images/FW951-3.png"}
               large={"/images/FW951-3.png"}
@@ -649,22 +577,18 @@ function Products() {
             />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.18")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.19")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.20")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.21")}
               </li>
@@ -673,30 +597,20 @@ function Products() {
         
           {/* Column6 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FW851-2.png"
-              alt="FW851-2"
-            ></img> */}
             <ModalImage
               small={"/images/FW851-2.png"}
               large={"/images/FW851-2.png"}
-              alt="โมดูลแยก FireWatcher 851"
-            />
+              alt="โมดูลแยก FireWatcher 851" />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Modules.22")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.23")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Modules.24")}
               </li>
@@ -711,7 +625,7 @@ function Products() {
           <div className="tact-only-column">
             {" "}
             <div className="tact-column">
-              {" "}
+
               <div className="container-test">
                 <img
                   src="/images/FireWatcher721Manual.png"
@@ -737,12 +651,6 @@ function Products() {
         <div className="tact-container-inner">
           {/* Column1 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FireWatcher721Manual.png"
-              alt="FireWatcher721Manual"
-            ></img> */}
               <ModalImage
         small={"/images/FireWatcher721Manual.png"}
         large={"/images/FireWatcher721Manual.png"}
@@ -750,22 +658,18 @@ function Products() {
       />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Manual.2")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.3")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.4")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.5")}
               </li>
@@ -773,12 +677,6 @@ function Products() {
           </div>
           {/* Column2 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FireWatcher722Manual.png"
-              alt="FireWatcher722Manual"
-            ></img> */}
               <ModalImage
         small={"/images/FireWatcher722Manual.png"}
         large={"/images/FireWatcher722Manual.png"}
@@ -786,22 +684,18 @@ function Products() {
       />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Manual.6")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.7")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.8")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Manual.9")}
               </li>
@@ -814,9 +708,8 @@ function Products() {
       <div id="tact-homepage6" className="tact-container">
         <div className="tact-column-inner">
           <div className="tact-only-column">
-            {" "}
             <div className="tact-column">
-              {" "}
+              
               <div className="container-test">
                 <img
                   src="/images/FireWatcher 511.png"
@@ -829,7 +722,6 @@ function Products() {
               </div>
             </div>
             <div className="tact-column">
-              {" "}
               <p>
                 <span className="span-col-203"> {t("Smoke.0")} </span>
                 <br />
@@ -842,12 +734,6 @@ function Products() {
         <div className="tact-container-inner">
           {/* Column1 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FireWatcher 511.png"
-              alt="FireWatcher511"
-            ></img> */}
               <ModalImage
         small={"/images/FireWatcher 511.png"}
         large={"/images/FireWatcher 511.png"}
@@ -855,22 +741,18 @@ function Products() {
       />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Smoke.2")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.3")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.4")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.5")}
               </li>
@@ -878,12 +760,6 @@ function Products() {
           </div>
           {/* Column2 */}
           <div className="col-tact-column">
-            {" "}
-            {/* <img
-              className="col-us-img-3"
-              src="/images/FireWatcher 521 .png"
-              alt="FireWatcher521"
-            ></img> */}
               <ModalImage
         small={"/images/FireWatcher 521 .png"}
         large={"/images/FireWatcher 521 .png"}
@@ -891,22 +767,18 @@ function Products() {
       />
             <span className="span-list">
               <ul>
-                {" "}
                 <FcCheckmark className="icons-Us" size={34} />
                 {t("Smoke.6")}
               </ul>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.7")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.8")}
               </li>
               <li>
-                {" "}
                 <FcAlarmClock className="icons-Us" size={34} />
                 {t("Smoke.9")}
               </li>
